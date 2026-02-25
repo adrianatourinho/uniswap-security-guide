@@ -24,7 +24,7 @@ With the Uniswap Wallet, you experience Self-Custody. This means you are solely 
 ### Why does this matter?
 
 - You in control: Your money stays "in your pocket" (in your digital wallet), not in a bank account.
-- Borderless: ****You can send value to other countries or to a neighbor with the same ease.
+- Borderless: You can send value to other countries or to a neighbor with the same ease.
 - Transparency: All rules are clear and equal for everyone.
 
 ### What is in this guide?
