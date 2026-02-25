@@ -2,7 +2,7 @@
 
 # Guide to Financial Freedom
 
-> **Tip:** If you come across a word you don’t recognize (such as **Token**, **Swap**, or **Blockchain**), don’t worry! Check out our **Glossary** in the sidebar menu.
+> **Tip:** If you come across a word you don’t recognize (such as Token, Swap, or Blockchain), don’t worry! Check out our Glossary in the sidebar menu.
 > 
 
 ### Why does this guide exist?
@@ -15,9 +15,9 @@ In Decentralized Finance (DeFi), we have a global market, open 24/7, where there
 
 ### But who guarantees security?
 
-This is where the technology behind it all comes in: the Blockchain, a complex encrypted system. The blockchain is secure because there is no way to erase or alter what has already been written; it functions as a **public** ledger where everyone can see what is happening. This allows you to trust the mathematics of the system's cryptography without depending on third parties.
+This is where the technology behind it all comes in: the Blockchain, a complex encrypted system. The blockchain is secure because there is no way to erase or alter what has already been written; it functions as a public ledger where everyone can see what is happening. This allows you to trust the mathematics of the system's cryptography without depending on third parties.
 
-This is the world of Decentralized Finance (DeFi), and the **Uniswap Wallet** will be your gateway in this guide. It is the application that combines effective technology with modern usability, similar to popular mobile apps. Through this tool, you can send, receive, and swap crypto assets, interacting with the DeFi universe simply.
+This is the world of Decentralized Finance (DeFi), and the Uniswap Wallet will be your gateway in this guide. It is the application that combines effective technology with modern usability, similar to popular mobile apps. Through this tool, you can send, receive, and swap crypto assets, interacting with the DeFi universe simply.
 
 With the Uniswap Wallet, you experience Self-Custody. This means you are solely responsible for your money. There are no intermediaries storing your passwords, controlling your funds, or limiting your financial movements.
 
@@ -32,6 +32,6 @@ With the Uniswap Wallet, you experience Self-Custody. This means you are solely 
 We will go from zero to your first interaction in the DeFi world.
 You will learn how to:
 
-- Create your "account" (which is actually an **encrypted private key**).
-- Perform your first **cryptocurrency swap** in seconds.
-- **Navigate safely**, without falling into common traps.
+- Create your "account" (which is actually an encrypted private key).
+- Perform your first cryptocurrency swap in seconds.
+- Navigate safely, without falling into common traps.
