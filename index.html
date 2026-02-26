@@ -5,51 +5,52 @@
   <title>Uniswap Security</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-<style>
-  /* Importando uma fonte moderna (Inter) */
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+<head>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-  :root {
-    /* Define a cor principal do site (links e detalhes) */
-    --theme-color: #ff007a; /* Cor oficial Uniswap */
-  }
+    :root {
+      --theme-color: #ff007a; /* Rosa Uniswap */
+    }
 
-  body {
-    font-family: 'Inter', sans-serif !important;
-  }
+    body {
+      font-family: 'Inter', sans-serif !important;
+    }
 
-  /* Personalização dos Títulos no Conteúdo */
-  #main h1 {
-    color: #4c4cff; /* Azul para o título principal */
-    font-weight: 700;
-  }
+    /* Estilo Especial para o Glossário */
+    /* Isso seleciona os termos em negrito no seu Markdown */
+    #main strong {
+      display: block;
+      color: #ff007a;
+      font-size: 1.2em;
+      margin-top: 25px;
+      margin-bottom: 5px;
+      border-left: 4px solid #ff007a;
+      padding-left: 10px;
+    }
 
-  #main h2, #main h3 {
-    color: #2b2b2b;
-    border-bottom: 2px solid #ff007a; /* Linha embaixo dos subtítulos */
-    padding-bottom: 5px;
-  }
+    /* Ajuste da descrição abaixo do termo */
+    #main strong + p {
+      margin-top: 0;
+      color: #444;
+      line-height: 1.6;
+      padding-left: 14px; /* Alinha com o texto do título acima */
+    }
 
-  /* Ajustes da Barra Lateral (Sidebar) */
-  .sidebar {
-    background-color: #f9f9f9;
-  }
+    /* Títulos da página */
+    #main h1 { color: #4c4cff; font-weight: 700; }
 
-  .sidebar .app-name {
-    text-align: left !important;
-    padding-left: 20px !important; 
-    padding-top: 25px !important;
-    font-weight: bold;
-    font-size: 22px;
-    color: #4c4cff !important; /* Cor do nome do guia */
-  }
-
-  /* Estilo do item ativo no menu */
-  .sidebar-nav li.active > a {
-    border-right: 3px solid var(--theme-color);
-    font-weight: bold;
-  }
-</style>
+    /* Sidebar alinhada */
+    .sidebar .app-name {
+      text-align: left !important;
+      padding-left: 20px !important;
+      padding-top: 20px !important;
+      font-weight: bold;
+      color: #4c4cff !important;
+    }
+  </style>
+</head>
 </head>
 <body>
   <div id="app"></div>
