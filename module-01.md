@@ -9,6 +9,7 @@ To simplify, let's compare it to the PIX key, which everyone in Brazil knows. In
 
 - Public key (Wallet address): it is like your PIX Key. You can send it to anyone, and people use it to send you money.
 - Private key (Seed Phrase): It is like your bank password. You never show this to anyone, not even to a manager or support.
+  
 ![image](image/img_EN.png)
 Understanding the image: on the left side (pink side), the blockchain is represented, an environment in which the private key remains exclusively under your control. It is the element that authorizes and signs transactions, functioning similarly to your biometrics or password in a banking app (purple side); only you can use it.
 
