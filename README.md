@@ -1,3 +1,4 @@
+![Capa do Guia](image/cover.png)
 # Introduction
 
 # Guide to Financial Freedom
