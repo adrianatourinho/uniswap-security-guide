@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 <head>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <style>
+ <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
     :root {
-      --theme-color: #ff007a; /* Rosa Uniswap para links e destaques */
+      --theme-color: #ff007a; /* Rosa Uniswap */
     }
 
     body {
@@ -19,58 +19,55 @@
       color: #333;
     }
 
-    /* --- AJUSTE DO GLOSSÁRIO --- */
-    /* Transforma os termos em negrito em blocos destacados */
-    #main strong {
+    /* --- 1. PADRONIZAÇÃO DOS TIPS (BLOCKQUOTES) --- */
+    #main blockquote {
+      border-left: 4px solid var(--theme-color) !important;
+      background: rgba(255, 0, 122, 0.05); /* Fundo levemente rosado */
+      padding: 15px 20px;
+      margin: 2em 0;
+      color: #555;
+    }
+
+    #main blockquote strong {
+      color: var(--theme-color) !important;
+      display: inline !important; /* Diferente do glossário */
+      border: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 1em !important;
+    }
+
+    /* --- 2. PADRONIZAÇÃO DO GLOSSÁRIO --- */
+    #main p > strong:not(blockquote strong) {
       display: inline-block;
       color: var(--theme-color);
       font-size: 1.15em;
       margin-top: 20px;
       margin-bottom: 8px;
-      border-bottom: 2px solid #f0f0f0; /* Linha sutil abaixo do termo */
+      border-bottom: 2px solid #f0f0f0;
       padding-bottom: 2px;
     }
 
-    /* Garante que a descrição comece sempre na linha de baixo */
-    #main strong + br + p, 
-    #main strong + p {
-      margin-top: 5px !important;
-      color: #555;
-      line-height: 1.6;
-      display: block;
-    }
-
-    /* --- TÍTULOS DA PÁGINA --- */
-    /* Mudança da cor azul para Cinza Escuro Profissional */
-    #main h1 { 
+    /* --- 3. CORREÇÃO DOS TÍTULOS (PADRÃO ESCURO) --- */
+    #main h1, #main h2, #main h3 { 
       color: #333 !important; 
       font-weight: 700; 
-      font-size: 2.5em;
-      margin-bottom: 30px;
     }
 
-    #main h2, #main h3 {
-      color: #444;
-      margin-top: 40px;
-    }
+    #main h1 { font-size: 2.5em; margin-bottom: 30px; }
+    #main h2 { font-size: 1.8em; margin-top: 40px; }
+    #main h3 { font-size: 1.4em; }
 
-    /* --- SIDEBAR (BARRA LATERAL) --- */
+    /* --- 4. SIDEBAR --- */
     .sidebar .app-name {
       text-align: left !important;
-      padding-left: 20px !important; /* Alinha com os itens do menu */
+      padding-left: 20px !important;
       padding-top: 25px !important;
       font-weight: 700;
       font-size: 22px;
-      /* Mudança da cor azul para o mesmo Cinza dos títulos */
       color: #333 !important; 
-      letter-spacing: -0.5px;
     }
 
-    .sidebar-nav li a {
-      font-size: 15px;
-    }
-
-    /* Item ativo no menu lateral */
     .sidebar-nav li.active > a {
       border-right: 3px solid var(--theme-color);
       color: var(--theme-color) !important;
