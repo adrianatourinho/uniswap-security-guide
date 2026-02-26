@@ -11,45 +11,72 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
     :root {
-      --theme-color: #ff007a; /* Rosa Uniswap */
+      --theme-color: #ff007a; /* Rosa Uniswap para links e destaques */
     }
 
     body {
       font-family: 'Inter', sans-serif !important;
+      color: #333;
     }
 
-    /* Estilo Especial para o Glossário */
-    /* Isso seleciona os termos em negrito no seu Markdown */
+    /* --- AJUSTE DO GLOSSÁRIO --- */
+    /* Transforma os termos em negrito em blocos destacados */
     #main strong {
-      display: block;
-      color: #ff007a;
-      font-size: 1.2em;
-      margin-top: 25px;
-      margin-bottom: 5px;
-      border-left: 4px solid #ff007a;
-      padding-left: 10px;
+      display: inline-block;
+      color: var(--theme-color);
+      font-size: 1.15em;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      border-bottom: 2px solid #f0f0f0; /* Linha sutil abaixo do termo */
+      padding-bottom: 2px;
     }
 
-    /* Ajuste da descrição abaixo do termo */
+    /* Garante que a descrição comece sempre na linha de baixo */
+    #main strong + br + p, 
     #main strong + p {
-      margin-top: 0;
-      color: #444;
+      margin-top: 5px !important;
+      color: #555;
       line-height: 1.6;
-      padding-left: 14px; /* Alinha com o texto do título acima */
+      display: block;
     }
 
-    /* Títulos da página */
-    #main h1 { color: #4c4cff; font-weight: 700; }
+    /* --- TÍTULOS DA PÁGINA --- */
+    /* Mudança da cor azul para Cinza Escuro Profissional */
+    #main h1 { 
+      color: #333 !important; 
+      font-weight: 700; 
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
 
-    /* Sidebar alinhada */
+    #main h2, #main h3 {
+      color: #444;
+      margin-top: 40px;
+    }
+
+    /* --- SIDEBAR (BARRA LATERAL) --- */
     .sidebar .app-name {
       text-align: left !important;
-      padding-left: 20px !important;
-      padding-top: 20px !important;
-      font-weight: bold;
-      color: #4c4cff !important;
+      padding-left: 20px !important; /* Alinha com os itens do menu */
+      padding-top: 25px !important;
+      font-weight: 700;
+      font-size: 22px;
+      /* Mudança da cor azul para o mesmo Cinza dos títulos */
+      color: #333 !important; 
+      letter-spacing: -0.5px;
     }
-  </style>
+
+    .sidebar-nav li a {
+      font-size: 15px;
+    }
+
+    /* Item ativo no menu lateral */
+    .sidebar-nav li.active > a {
+      border-right: 3px solid var(--theme-color);
+      color: var(--theme-color) !important;
+      font-weight: 600;
+    }
+</style>
 </head>
 </head>
 <body>
