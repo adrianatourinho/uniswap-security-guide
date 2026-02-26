@@ -1,7 +1,5 @@
 # About the Author
 
-# About Me
-
 I live in Salvador, Bahia, Brazil, and at 29 years old, I have been building my professional path in the technology field, with a focus on digital security.
 
 I am passionate about technology, I work as a cybersecurity analyst, and I have a great interest in topics related to blockchain, DeFi, and the evolution of Web3. For the coming years, I seek to specialize in security focused on Web3 applications and ecosystems, uniting technical knowledge with digital education.
