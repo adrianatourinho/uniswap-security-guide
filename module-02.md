@@ -89,5 +89,5 @@ The Challenge:
 - Search for "Network" or "Chains.”
 - Identify in the list which other networks (blockchains) are supported.
 
-> Tip: Look for names like Arbitrum, Optimism, or Polygon. Knowing how to navigate between these networks is the secret to paying much cheaper fees in the future with the same security.
+> Look for names like Arbitrum, Optimism, or Polygon. Knowing how to navigate between these networks is the secret to paying much cheaper fees in the future with the same security.
 >
