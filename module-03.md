@@ -47,7 +47,6 @@ The Challenge:
     - Option A: Search for "Ronin Bridge Hack fake job offer".
     - Option B: Search for "BadgerDAO Hack user interface".
     
-> Tip: when reading the news, look for the "human details.”
-> 
+> When reading the news, look for the "human details.”
 > - In the Ronin case: did it involve a PDF file or a job interview? (What scam does this remind you of?)
 > - In the BadgerDAO case: did it involve the site asking for strange permissions in the wallet? (What scam does this remind you of?)
