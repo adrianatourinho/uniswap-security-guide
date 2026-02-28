@@ -1,6 +1,6 @@
 # Module 01: Setting Up Your First Wallet
 
-If you have ever used a banking app, you will find the Uniswap Wallet familiar. It has a balance, a statement, and a button for transactions. However, behind the beautiful interface, it works in a completely different way.
+If you have ever used a banking app, you will find the Uniswap Wallet familiar. It has a balance, a statement, and a button for transactions. However, behind the friendly interface, it works in a completely different way.
 To start, we need to debunk a myth: your digital wallet does not store your cryptocurrencies. That is right. The coins live on the blockchain. Your wallet only stores the cryptographic key that gives you the right to move those coins.
 
 ### The PIX Analogy (To understand the concept of Keys)
@@ -23,7 +23,7 @@ It will show you 12 words in English (such as avocado, blue, chair, piano...). T
 > Attention: These 12 words (private key) are your access to all your digital money.
 > 
 > - If you lose your phone but have the words, you recover everything on another phone.
-> - If you lose the words, the money is lost forever.
+> - If you lose the words, the money is permanently lost.
 > - If someone sees these words, they can have access to everything, even without your fingerprint or facial recognition.
 
 ### Creating your Uniswap Wallet
@@ -31,7 +31,7 @@ It will show you 12 words in English (such as avocado, blue, chair, piano...). T
 Enough theory, let's create your digital wallet! Follow this roadmap:
 
 - Preparation: get paper and a pen. (seriously, no digital notepad).
-- Download: go to the app store and download the Uniswap Wallet.
+- Download: open the app store and download the Uniswap Wallet.
 - Security tip: check if the developer is "Uniswap Labs".
 - Creation: open the app and click on "Create a new wallet".
 - Locate your Seed Phrase (recovery key), write it down on paper, and keep it in a safe place.
