@@ -19,7 +19,7 @@ This is where the technology behind it all comes in: the Blockchain, a complex e
 
 This is the world of Decentralized Finance (DeFi), and the Uniswap Wallet will be your gateway in this guide. It is the application that combines effective technology with modern usability, similar to popular mobile apps. Through this tool, you can send, receive, and swap crypto assets, interacting with the DeFi universe simply.
 
-With the Uniswap Wallet, you experience Self-Custody. This means you are solely responsible for your money. There are no intermediaries storing your passwords, controlling your funds, or limiting your financial movements.
+With the Uniswap Wallet you experience self-custody, this means you are solely responsible for your money. There are no intermediaries storing your passwords, controlling your funds, or limiting your financial movements.
 
 ### Why does this matter?
 
